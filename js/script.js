@@ -35,24 +35,24 @@
                     touch: {
                         touchenabled: "on"
                     },
-                    //                    arrows: {
-                    //                        style: "Gyges",
-                    //                        enable: true,
-                    //                        hide_onmobile: false,
-                    //                        hide_onleave: false,
-                    //                        left: {
-                    //                            h_align: "left",
-                    //                            v_align: "top",
-                    //                            h_offset: 385,
-                    //                            v_offset: 170
-                    //                        },
-                    //                        right: {
-                    //                            h_align: "left",
-                    //                            v_align: "top",
-                    //                            h_offset: 435,
-                    //                            v_offset: 170
-                    //                        }
-                    //                    },
+                    arrows: {
+                        style: "Gyges",
+                        enable: true,
+                        hide_onmobile: false,
+                        hide_onleave: false,
+                        left: {
+                            h_align: "left",
+                            v_align: "top",
+                            h_offset: 50,
+                            v_offset: 250
+                        },
+                        right: {
+                            h_align: "right",
+                            v_align: "top",
+                            h_offset: 50,
+                            v_offset: 250
+                        }
+                    },
                     bullets: {
                         enable: false,
                         hide_onmobile: false,
@@ -69,7 +69,7 @@
                 },
                 responsiveLevels: [4096, 1199, 992, 767, 480],
                 gridwidth: [1140, 970, 750, 700, 300],
-                gridheight: [760, 760, 760, 500, 500],
+                gridheight: [800, 760, 760, 500, 500],
                 lazyType: "smart",
                 fallbacks: {
                     simplifyAll: "off",
