@@ -7,7 +7,7 @@
             table.children('tbody').children('tr').filter(':even').click(function () {
                 var element = $(this);
                 element.next('tr').toggle('fast');
-                element.find(".fa").toggleClass("up");
+                element.find(".fa-angle-down").toggleClass("up");
             });
             table.children('tbody').children('tr').filter(':even').each(function () {
                 var element = $(this);
