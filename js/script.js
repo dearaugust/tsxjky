@@ -44,13 +44,13 @@
                             h_align: "left",
                             v_align: "top",
                             h_offset: 50,
-                            v_offset: 250
+                            v_offset: 300
                         },
                         right: {
                             h_align: "right",
                             v_align: "top",
                             h_offset: 50,
-                            v_offset: 250
+                            v_offset: 300
                         }
                     },
                     bullets: {
