@@ -3463,6 +3463,7 @@ iframe {
 
 .image_s_list img {
   width: 100%;
+  height: 180px;
 }
 
 .image_s_list .single_title {

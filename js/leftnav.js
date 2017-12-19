@@ -22,7 +22,7 @@ $(function() {
 		}
 	};
 
-	var accordion = new Accordion($('#accordion'), false);
+	var accordion = new Accordion($('.accordion'), false);
 	$('.aside_submenu li').click(function () {
 		$(this).addClass('current').siblings('li').removeClass('current');
 	});

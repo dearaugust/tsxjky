@@ -19,6 +19,11 @@
     <link href="css/owl.carousel.min.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/leftnav.css" media="screen" type="text/css">
+    <!-- INCLUDES -->
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="css/bootstrap-table-expandable.css">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,6 +31,19 @@
         <script src="js/html5shiv.min.js"></script>
         <script src="js/respond.min.js"></script>
         <![endif]-->
+    <style>
+        .up {
+            transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(180deg);
+            /* Firefox */
+            -webkit-transform: rotate(180deg);
+            /* Safari 和 Chrome */
+            -o-transform: rotate(180deg);
+            /* Opera */
+        }
+    </style>
 </head>
 
 <body>
@@ -122,11 +140,11 @@
     <section class="banner_area">
         <div class="container">
             <div class="pull-left">
-                <h3>公司介绍</h3>
+                <h3>诚聘英才</h3>
             </div>
             <div class="pull-right">
                 <a href="index.html">首页</a>
-                <a href="blog-details.html">公司介绍</a>
+                <a href="blog-details.html">诚聘英才</a>
             </div>
         </div>
     </section>
@@ -138,38 +156,6 @@
             <div class="row main_blog_inner">
                 <div class="col-md-3">
                     <div class="sidebar_area">
-                        <aside class="r_widget categories_widget">
-                            <div class="r_widget_title">
-                                <h3>关于我们</h3>
-                            </div>
-                            <ul>
-                                <li class="active">
-                                    <a href="#">公司介绍
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">组织架构
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">企业文化
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">企业资质
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">联系我们
-                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </aside>
                         <aside class="r_widget tage_widget">
                             <div class="r_widget_title">
                                 <h3>联系方式</h3>
@@ -181,22 +167,83 @@
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <div class="main_blog_items">
-                        <div class="main_blog_item">
-                            <div class="main_blog_image">
-                                <img src="picture/gongsijieshao.png" alt="">
+                        <div class="r_widget_title">
+                                <h3>诚聘英才</h3>
                             </div>
-                            <div class="main_blog_text">
-                                <a href="#">
-                                    <h2>公司介绍</h2>
-                                </a>
-                                <p>企业精神：诚信 勤勉 协作 共赢 经营理念：以客户满意为荣 以企业发展为本 管理理念：企业与员工共同成长 服务宗旨：用户至上，信誉第一，技术先进；以客户为中心提供最好的产品、最完善的方案及最佳的服务。
-                                    企业使命：促进唐山地区信息化建设，以科技服务唐山人民。 信奉的格言： 自强不息，厚德载物。 不为失败找借口，只为成功找方法。 有人负责我服从，没人负责我负责。 丰碑无语，行胜于言。
-                                    艰苦创业，勤俭持家。 简单的事重复做就成“专家”，重复的事用心做就成“赢家”。 我们：是军队，攻城伐寨、战无不胜；是学校，钻研交流、共同提高；是家庭，关爱互助、荣辱与共。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <table class="table table-hover table-expandable">
+                        <thead>
+                            <tr>
+                                <th>职位名称</th>
+                                <th>工作地区</th>
+                                <th>要求学历</th>
+                                <th>月薪范围</th>
+                                <th>截止日期</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>销售助理</td>
+                                <td>路北区</td>
+                                <td>大专</td>
+                                <td>2001-3500(人民币元)</td>
+                                <td>2018-01-17</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">
+                                    <p>Additional information</p>
+                                    <p>顺丰到付个地方隔壁村</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>销售助理</td>
+                                <td>路北区</td>
+                                <td>大专</td>
+                                <td>2001-3500(人民币元)</td>
+                                <td>2018-01-17</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam beatae veniam, molestiae iure reiciendis dignissimos unde ratione quas modi nemo, ab cupiditate quos quisquam error. Nihil sint iste quibusdam dolorum.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>销售助理</td>
+                                <td>路北区</td>
+                                <td>大专</td>
+                                <td>2001-3500(人民币元)</td>
+                                <td>2018-01-17</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam beatae veniam, molestiae iure reiciendis dignissimos unde ratione quas modi nemo, ab cupiditate quos quisquam error. Nihil sint iste quibusdam dolorum.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>销售助理</td>
+                                <td>路北区</td>
+                                <td>大专</td>
+                                <td>2001-3500(人民币元)</td>
+                                <td>2018-01-17</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam beatae veniam, molestiae iure reiciendis dignissimos unde ratione quas modi nemo, ab cupiditate quos quisquam error. Nihil sint iste quibusdam dolorum.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>销售助理</td>
+                                <td>路北区</td>
+                                <td>大专</td>
+                                <td>2001-3500(人民币元)</td>
+                                <td>2018-01-17</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam beatae veniam, molestiae iure reiciendis dignissimos unde ratione quas modi nemo, ab cupiditate quos quisquam error. Nihil sint iste quibusdam dolorum.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
             </div>
@@ -230,7 +277,8 @@
     <!--gmaps Js-->
     <script src="js/ab45a296a2574eb29cf5f09c25360775.js"></script>
     <script src="js/gmaps.min.js"></script>
-
+    <script type="text/javascript" src="js/leftnav.js"></script>
+    <script src="js/bootstrap-table-expandable.js"></script>
     <script src="js/script.js"></script>
 </body>
 
