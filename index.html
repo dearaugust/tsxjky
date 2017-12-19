@@ -21,7 +21,7 @@
     <!-- <link href="css/layers.css" rel="stylesheet"> -->
     <link href="css/navigation.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/pgwslideshow.css">
     <!-- Extra plugin css -->
     <link href="css/owl.carousel.min.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
@@ -128,33 +128,18 @@
 
     <!--================Main Slider Area =================-->
     <section class="main_slider_area">
-        <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
-            <ul>
-                <li data-index="rs-2972" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"
-                    data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off"
-                    data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
-                    data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="picture/slider-1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5"
-                        class="rev-slidebg" data-no-retina>
-                </li>
-                <li data-index="rs-2973" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"
-                    data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off"
-                    data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
-                    data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="picture/slider-2.jpg" alt="" style="width:100%;" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5"
-                        class="rev-slidebg" data-no-retina>
-                </li>
-                <li data-index="rs-2974" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"
-                    data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off"
-                    data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
-                    data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="picture/slider-3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5"
-                        class="rev-slidebg" data-no-retina>
-                </li>
-            </ul>
+        <div class="jq22-container">
+            <div class="jq22-content bgcolor-3">
+                <ul class="pgwSlideshow">
+                    <li><img src="picture/slider-1.jpg" alt="" data-description=""></li>
+                    <li><img src="picture/slider-2.jpg" alt=""></li>
+                    <li><img src="picture/slider-3.jpg" alt="" data-large-src="picture/slider-3.jpg"></li>
+                    <!-- <li><img src="img/a4.png" alt=""></li>
+                    <li><img src="img/a5.png" alt=""></li>
+                    <li><img src="img/a6.png" alt=""></li>
+                    <li><img src="img/a7.png" alt=""></li> -->
+                </ul>
+            </div>
         </div>
     </section>
     <!--================End Main Slider Area =================-->
@@ -199,6 +184,15 @@
     <script src="js/jvectormap.min.js"></script>
     <script src="js/jvectormap-worldmill.js"></script>
     <script src="js/locations.js"></script>
+    <script type="text/javascript" src="js/pgwslideshow.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('.pgwSlideshow').pgwSlideshow({
+		    	transitionEffect:'fading'
+		    	// autoSlide:true
+		    });
+		});
+	</script>
     <!-- Main js -->
     <script src="js/script.js"></script>
 </body>
