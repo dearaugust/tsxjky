@@ -1317,10 +1317,6 @@ iframe {
   margin-bottom: 50px;
 }
 
-.r_widget:last-child {
-  margin-bottom: 0px;
-}
-
 .r_widget_title {
   padding-bottom: 20px;
 }
@@ -3494,7 +3490,7 @@ iframe {
 
 .image_s_list .single_title {
   padding-bottom: 10px;
-  font-size: 24px;
+  font-size: 18px;
   padding-top: 10px;
 }
 
